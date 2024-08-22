@@ -39,7 +39,7 @@ function App() {
           <MainComponent/>
           </LoginContext.Provider> */}
 
-          {/* <SampleThree/> */}
+          <SampleThree/>
 
           <SampleTwo/>
        
