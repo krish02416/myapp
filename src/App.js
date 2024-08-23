@@ -13,6 +13,7 @@ import { createContext ,useContext } from 'react';
 import MainComponent from './Component/MainComponent';
 import { SampleThree } from './Component/SampleThree';
 import { SampleTwo } from './Component/SampleTwo';
+import { UseReducer } from './Component/UseReducer';
 
 export const LoginContext=createContext("Hello");
 
@@ -38,11 +39,12 @@ function App() {
           {/* <LoginContext.Provider value="hello">
           <MainComponent/>
           </LoginContext.Provider> */}
+          {/* <SampleThree/>
+          <SampleTwo/> */}
 
-          <SampleThree/>
+          <UseReducer/>
 
-          <SampleTwo/>
-       
+               
            
     </div>
   );
