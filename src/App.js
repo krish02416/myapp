@@ -14,6 +14,7 @@ import MainComponent from './Component/MainComponent';
 import { SampleThree } from './Component/SampleThree';
 import { SampleTwo } from './Component/SampleTwo';
 import { UseReducer } from './Component/UseReducer';
+import Hooksusememo from './Component/Hooksusememo';
 
 export const LoginContext=createContext("Hello");
 
@@ -42,7 +43,9 @@ function App() {
           {/* <SampleThree/>
           <SampleTwo/> */}
 
-          <UseReducer/>
+          {/* <UseReducer/> */}
+
+          <Hooksusememo/>
 
                
            
