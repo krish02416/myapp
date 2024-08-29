@@ -1,13 +1,12 @@
-import React from 'react'
-import SinglePost from './SinglePost'
+import React from "react";
+import SinglePost from "./SinglePost";
 
 function MainComponent() {
   return (
-<div>
-  <SinglePost/>
-</div>
-
-)
+    <div>
+      <SinglePost />
+    </div>
+  );
 }
 
-export default MainComponent
+export default MainComponent;

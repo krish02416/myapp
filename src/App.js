@@ -1,64 +1,58 @@
-import logo from './logo.svg';
-import './App.css';
-import Greet from './Component/Greet';
-import { Student } from './Component/Student';
-// import Hello from './Component/Employee';
-import Message from './Component/Message';
-// import Employee from './Component/Employee';
-import Counter from './Component/Counter';
-import Welcome from './Component/Welcome';
-import UseStateDemo from './Component/UseStateDemo';
-import UseEffectDemo from './Component/UseEffectDemo';
-import { createContext ,useContext } from 'react';
-import MainComponent from './Component/MainComponent';
-import { SampleThree } from './Component/SampleThree';
-import { SampleTwo } from './Component/SampleTwo';
-import { UseReducer } from './Component/UseReducer';
-import Hooksusememo from './Component/Hooksusememo';
-import { HooksCallback } from './Component/HooksCallback';
-import CustomHooks from './Component/CustomHooks';
-import UseFetch from './Component/UseFetch';
-import { CallUrl } from './Component/CallUrl';
+import logo from "./logo.svg";
+import "./App.css";
+import Greet from "./Component/Greet";
+import { Student } from "./Component/Student";
+import Hello from "./Component/Employee";
+import Message from "./Component/Message";
+import Employee from "./Component/Employee";
+import Counter from "./Component/Counter";
+import Welcome from "./Component/Welcome";
+import UseStateDemo from "./Component/UseStateDemo";
+import UseEffectDemo from "./Component/UseEffectDemo";
+import { createContext, useContext } from "react";
+import MainComponent from "./Component/MainComponent";
+import { SampleThree } from "./Component/SampleThree";
+import { SampleTwo } from "./Component/SampleTwo";
+import { UseReducer } from "./Component/UseReducer";
+import Hooksusememo from "./Component/Hooksusememo";
+import { HooksCallback } from "./Component/HooksCallback";
+import CustomHooks from "./Component/CustomHooks";
+import UseFetch from "./Component/UseFetch";
+import { CallUrl } from "./Component/CallUrl";
 
-export const LoginContext=createContext("Hello");
+export const LoginContext = createContext("Hello");
 
 function App() {
-  let name= "Hari"
-  
+  let name = "Hari";
+
   return (
-    
     <div className="App">
       {/* <Welcome/> */}
-       {/* <Greet name="Hari"/>
+      {/* <Greet name="Hari"/>
        <Greet name="Ganesh"/>
        <Student/> */}
-       {/* <Hello/>
+      {/* <Hello/>
        <Employee/> */}
-       {/* <Message name="Message"/> */}
-       {/* <Counter/> */}
-       {/* <UseStateDemo/> */}
-       {/* <UseStateDemo/> */}
-       {/* <UseEffectDemo/> */}
+      {/* <Message name="Message"/> */}
+      {/* <Counter/> */}
+      {/* <UseStateDemo/> */}
+      {/* <UseStateDemo/> */}
+      {/* <UseEffectDemo/> */}
 
-         
-          {/* <LoginContext.Provider value="hello">
+      {/* <LoginContext.Provider value="hello">
           <MainComponent/>
           </LoginContext.Provider> */}
-          {/* <SampleThree/>
+      {/* <SampleThree/>
           <SampleTwo/> */}
 
-          {/* <UseReducer/> */}
+      {/* <UseReducer/> */}
 
-          {/* <Hooksusememo/> */}
+      {/* <Hooksusememo/> */}
 
-          {/* <HooksCallback/> */}
-          {/* <CustomHooks/> */}
-          <UseFetch/>
-          <CallUrl/>
-
-
-               
-           
+      {/* <HooksCallback/> */}
+      {/* <CustomHooks/> */}
+      <UseFetch />
+      <CallUrl />
     </div>
   );
 }
