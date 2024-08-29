@@ -16,6 +16,9 @@ import { SampleTwo } from './Component/SampleTwo';
 import { UseReducer } from './Component/UseReducer';
 import Hooksusememo from './Component/Hooksusememo';
 import { HooksCallback } from './Component/HooksCallback';
+import CustomHooks from './Component/CustomHooks';
+import UseFetch from './Component/UseFetch';
+import { CallUrl } from './Component/CallUrl';
 
 export const LoginContext=createContext("Hello");
 
@@ -48,7 +51,11 @@ function App() {
 
           {/* <Hooksusememo/> */}
 
-          <HooksCallback/>
+          {/* <HooksCallback/> */}
+          {/* <CustomHooks/> */}
+          <UseFetch/>
+          <CallUrl/>
+
 
                
            
