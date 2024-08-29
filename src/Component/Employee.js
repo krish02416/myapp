@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 // function Employee() {
 //   return (
@@ -14,7 +14,7 @@ export default function Employee() {
       <h1>Hello Employee</h1>
       <p>Hi everyone this is react class</p>
     </div>
-  )
+  );
 }
 
 //rcc
